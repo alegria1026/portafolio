@@ -87,3 +87,53 @@ p {
     box-sizing: border-box;
     padding: 3rem;
 }
+
+.card {
+    width: 400px;
+    height: 520px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.card-img {
+    width: 90%;
+    margin: 1rem auto;
+}
+
+.card-content {
+    padding: 16px;
+}
+
+.card-title {
+    font-size: 1.4rem;
+    text-align: center;
+    color: #2c3e50;
+}
+
+.card-description {
+    color: #666;
+    font-size: 1rem;
+}
+
+.card-icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem 0 4rem 0;
+}
